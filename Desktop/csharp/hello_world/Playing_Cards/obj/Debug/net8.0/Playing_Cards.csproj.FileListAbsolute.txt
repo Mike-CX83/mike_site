@@ -1,0 +1,14 @@
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/bin/Debug/net8.0/Playing_Cards
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/bin/Debug/net8.0/Playing_Cards.deps.json
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/bin/Debug/net8.0/Playing_Cards.runtimeconfig.json
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/bin/Debug/net8.0/Playing_Cards.dll
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/bin/Debug/net8.0/Playing_Cards.pdb
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.GeneratedMSBuildEditorConfig.editorconfig
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.AssemblyInfoInputs.cache
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.AssemblyInfo.cs
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.csproj.CoreCompileInputs.cache
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.dll
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/refint/Playing_Cards.dll
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.pdb
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/Playing_Cards.genruntimeconfig.cache
+/Users/mike/Desktop/csharp/hello_world/Playing_Cards/obj/Debug/net8.0/ref/Playing_Cards.dll
