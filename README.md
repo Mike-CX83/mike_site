@@ -28,7 +28,7 @@ GitHub Repository Link:
 
 ## Screenshot
 
-![Life Systems Lab homepage](screenshot.png)
+![Life Systems Lab homepage](mike_site_screenshot.jpg)
 
 ## Technologies Used
 
