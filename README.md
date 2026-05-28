@@ -19,12 +19,12 @@ Each section shows how structure can make daily execution easier. The goal was t
 ## Live Website
 
 GitHub Pages Link:
-[Add live GitHub Pages link here]
+[https://mike-cx83.github.io/mike_site/](https://mike-cx83.github.io/mike_site/)
 
 ## Repository
 
 GitHub Repository Link:
-[Add repository link here]
+[https://github.com/Mike-CX83/mike_site](https://github.com/Mike-CX83/mike_site)
 
 ## Screenshot
 
@@ -82,7 +82,7 @@ life-systems-lab/
 1. Clone the repository:
 
 ```bash
-git clone [Add repository link here]
+git clone https://github.com/Mike-CX83/mike_site.git
 ```
 
 2. Open the project folder.
