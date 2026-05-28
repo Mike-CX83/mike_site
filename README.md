@@ -69,12 +69,13 @@ This project uses five Bootstrap components:
 ## Project Structure
 
 ```text
-life-systems-lab/
+mike_site/
 ├── index.html
 ├── styles.css
 ├── scripts.js
 ├── README.md
-└── peter-herrmann-unsplash.jpg
+├── peter-herrmann-unsplash.jpg
+└── mike_site_screenshot.jpg
 ```
 
 ## How to Run Locally
