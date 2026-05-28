@@ -1,0 +1,256 @@
+/*
+  Custom styles for the Life Systems Lab theme.
+  Bootstrap handles most of the layout.
+*/
+
+:root {
+  --lsl-bg: #f3f6f4;
+  --lsl-bg-deep: #0c1410;
+  --lsl-bg-image: url("peter-herrmann-unsplash.jpg");
+  --lsl-surface: #122318;
+  --lsl-surface-soft: #192f21;
+  --lsl-ink: #faf8f2;
+  --lsl-muted: #c8d9ca;
+  --lsl-primary: #7dce82;
+  --lsl-primary-dark: #5bab6d;
+  --lsl-accent: #f0c75e;
+  --lsl-border: rgba(216, 232, 200, 0.45);
+  --lsl-panel-border: rgba(126, 200, 126, 0.5);
+  --lsl-panel-border-gold: rgba(240, 199, 94, 0.45);
+  --lsl-nav-bg: rgba(10, 22, 15, 0.82);
+  --lsl-panel-bg: rgba(12, 28, 18, 0.35);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--lsl-ink);
+  background-color: var(--lsl-bg-deep);
+  background-image: linear-gradient(rgba(6, 13, 9, 0.3), rgba(6, 13, 9, 0.3)), var(--lsl-bg-image);
+  background-repeat: no-repeat;
+  background-position: center center, center 30%;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Quicksand", Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  min-height: 100vh;
+  padding-top: 4.75rem;
+}
+
+h1,
+h2,
+h3,
+.brand-mark {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+section {
+  scroll-margin-top: 5.6rem;
+}
+
+.text-muted-custom {
+  color: var(--lsl-muted) !important;
+}
+
+.section-block {
+  max-width: 56rem;
+  margin-inline: auto;
+}
+
+.section-block .text-muted-custom {
+  color: #dbe7dc !important;
+}
+
+.section-block .system-card {
+  background-color: rgba(8, 16, 12, 0.55);
+  border: 1px solid rgba(126, 200, 126, 0.35);
+}
+
+.section-tab-content {
+  border-color: rgba(126, 200, 126, 0.35) !important;
+  background-color: rgba(8, 16, 12, 0.45);
+}
+
+.text-accent {
+  color: var(--lsl-accent);
+  letter-spacing: 0.08em;
+}
+
+.section-base {
+  background-color: transparent;
+}
+
+.section-soft {
+  background-color: transparent;
+}
+
+/* Navbar */
+.nav-shell {
+  background: var(--lsl-nav-bg);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(216, 232, 200, 0.2);
+  box-shadow: 0 0.25rem 1.1rem rgba(6, 13, 9, 0.38);
+}
+
+.navbar .nav-link {
+  border-radius: 999px;
+  padding-inline: 0.85rem !important;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link:focus-visible {
+  background-color: rgba(240, 199, 94, 0.16);
+  color: #ffffff;
+}
+
+.hero-section {
+  background: transparent;
+}
+
+.min-vh-75 {
+  min-height: 75vh;
+}
+
+.panel-shell {
+  background-color: var(--lsl-panel-bg);
+  border: 1.5px solid var(--lsl-panel-border);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow:
+    0 0.65rem 1.4rem rgba(6, 13, 9, 0.28),
+    0 0 0 1px var(--lsl-panel-border-gold),
+    inset 0 1px 0 rgba(255, 255, 255, 0.06);
+}
+
+.hero-copy-panel {
+  border-left: 3px solid rgba(240, 199, 94, 0.72);
+}
+
+.hero-card {
+  border-left: 4px solid var(--lsl-accent);
+}
+
+.btn-primary {
+  background-color: var(--lsl-primary);
+  border-color: var(--lsl-primary-dark);
+  color: #102116;
+  font-weight: 600;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: var(--lsl-primary-dark);
+  border-color: var(--lsl-primary-dark);
+  color: #0f1f14;
+}
+
+.carousel-inner {
+  min-height: 220px;
+  background: linear-gradient(145deg, #243b30 0%, #304b3d 100%);
+}
+
+.carousel-caption-custom {
+  color: #f4f8f6;
+  text-align: center;
+  max-width: 38rem;
+  margin: 0 auto;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: rgba(255, 255, 255, 0.55);
+}
+
+.carousel-indicators .active {
+  background-color: #ffffff;
+}
+
+.system-card {
+  border-top: 3px solid rgba(240, 199, 94, 0.82) !important;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  --bs-card-color: #e8f2ea;
+}
+
+.system-card .card-title {
+  color: #f3f8f4;
+}
+
+.system-card .card-text {
+  color: #d7e7da;
+}
+
+.system-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.8rem 1.2rem rgba(7, 16, 11, 0.45) !important;
+}
+
+.accordion {
+  --bs-accordion-bg: transparent;
+  --bs-accordion-color: #edf4ee;
+  --bs-accordion-border-color: rgba(216, 232, 200, 0.3);
+  --bs-accordion-btn-bg: rgba(16, 33, 22, 0.72);
+  --bs-accordion-btn-color: #edf4ee;
+  --bs-accordion-active-bg: rgba(240, 199, 94, 0.1);
+  --bs-accordion-active-color: #f0c75e;
+}
+
+.accordion-button:not(.collapsed) {
+  color: var(--lsl-accent);
+  background-color: rgba(240, 199, 94, 0.08);
+}
+
+.nav-tabs .nav-link {
+  color: #deebdf;
+  font-weight: 600;
+}
+
+.nav-tabs .nav-link.active {
+  color: #122318;
+  background-color: rgba(240, 199, 94, 0.84);
+  border-color: rgba(240, 199, 94, 0.84);
+}
+
+.tab-content {
+  color: #edf4ee;
+}
+
+.footer-section {
+  background-color: #17271f;
+  color: #e5ede9;
+}
+
+.footer-section a:hover {
+  color: #f3e6be !important;
+}
+
+.dropdown-menu {
+  background: rgba(10, 21, 14, 0.93);
+  border-color: rgba(216, 232, 200, 0.35);
+}
+
+.dropdown-item {
+  color: #e6f0e7;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+  color: #0f1f14;
+  background-color: rgba(240, 199, 94, 0.84);
+}
+
+/* Badges */
+.badge.bg-primary {
+  background-color: rgba(125, 206, 130, 0.18) !important;
+  border: 1px solid rgba(125, 206, 130, 0.55);
+  color: #d8e8c8;
+}
+
+@media (max-width: 575px) {
+  body {
+    padding-top: 4.4rem;
+    background-attachment: scroll;
+  }
+}
