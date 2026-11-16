@@ -1,5 +1,27 @@
 # Life Systems Lab
 
+## Table of Contents
+
+* [Project Description](#project-description)
+* [Live Website](#live-website)
+* [Repository](#repository)
+* [Screenshot](#screenshot)
+* [Technologies Used](#technologies-used)
+* [Bootstrap Integration](#bootstrap-integration)
+* [Bootstrap Components Used](#bootstrap-components-used)
+* [Project Structure](#project-structure)
+* [Installation](#installation)
+* [Usage / How It Works](#usage-/-how-it-works)
+* [Author](#author)
+* [Custom CSS Explanation](#custom-css-explanation)
+* [Most Challenging Component](#most-challenging-component)
+* [Easiest Component](#easiest-component)
+* [How Bootstrap Improved the Code](#how-bootstrap-improved-the-code)
+* [Bootstrap Features I Liked](#bootstrap-features-i-liked)
+* [Bootstrap Features I Disliked](#bootstrap-features-i-disliked)
+* [Responsive Design](#responsive-design)
+* [Project Reflection](#project-reflection)
+
 ## Project Description
 
 Life Systems Lab is a Bootstrap website about building simple, repeatable systems for real life.
@@ -78,7 +100,9 @@ mike_site/
 └── mike_site_screenshot.jpg
 ```
 
-## How to Run Locally
+## Installation
+
+You need a web browser and an internet connection for Bootstrap and Google Fonts. No Node.js packages or build step are required.
 
 1. Clone the repository:
 
@@ -91,6 +115,21 @@ git clone https://github.com/Mike-CX83/mike_site.git
 3. Open `index.html` in your browser.
 
 You can also run the project with the Live Server extension in VS Code.
+
+## Usage / How It Works
+
+Open the page and use the navigation to jump between sections. Browse the Core Life Systems carousel, open the introductory modal, expand the System Breakdown accordion, and select the three tabs in Build Your Own System.
+
+Bootstrap supplies the interactive components. Custom JavaScript closes the mobile menu after navigation, updates the footer year, and highlights navigation links as sections enter view.
+
+This is an informational website. The system building tabs explain a process; they do not collect or save personal tracking data.
+
+## Author
+
+**Mike Hankins**  
+Atlas School software engineering student with a background in nursing and an interest in practical systems design.
+
+[GitHub profile](https://github.com/Mike-CX83)
 
 ## Custom CSS Explanation
 
